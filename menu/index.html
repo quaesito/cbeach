@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>C Beach · Ostuni — Food &amp; drinks menu</title>
+<meta name="description" content="The C Beach Ostuni menu: crudo, antipasti, primi, secondi, pizze, salads, dolci and the La Cantina wine list. Seafood · Beach Club · Sunset Dining." />
+<meta property="og:title" content="C Beach · Ostuni — Menu" />
+<meta property="og:description" content="Seafood · Beach Club · Sunset Dining. Crudo, antipasti, primi, secondi, pizze and the La Cantina wine list." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://cbeach.midasanalytics.ai/menu/" />
+<meta property="og:image" content="https://cbeach.midasanalytics.ai/img/hero.jpg" />
+<link rel="icon" href="../img/logo.jpg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../css/site.css" />
+<style>
+  .hero {
+    background-image:
+      linear-gradient(rgba(30, 41, 38, 0.42), rgba(30, 41, 38, 0.2) 45%, rgba(247, 242, 233, 0.92) 100%),
+      url("../img/hero.jpg");
+  }
+</style>
+</head>
+<body>
+
+<div class="lang-switch" role="group" aria-label="Language">
+  <button id="btn-en" type="button" onclick="setLang('en')">EN</button>
+  <button id="btn-it" type="button" onclick="setLang('it')">IT</button>
+</div>
+
+<header class="hero hero-short">
+  <img class="hero-logo" src="../img/logo-white.png" alt="C Beach — Rosa Marina, Ostuni" />
+  <div class="tagline">Seafood &middot; Beach Club &middot; Sunset Dining</div>
+</header>
+
+<main>
+  <section class="intro">
+    <h1 class="en">Food &amp; drinks</h1>
+    <h1 class="it">Il nostro menù</h1>
+    <div class="rule"></div>
+    <p class="en">
+      Fresh seafood, pizza and Puglia on a plate — right on the sand.
+      Table reservations are made <strong>via WhatsApp</strong>.
+    </p>
+    <p class="it">
+      Pesce fresco, pizza e la Puglia nel piatto — direttamente sulla sabbia.
+      I tavoli si prenotano <strong>su WhatsApp</strong>.
+    </p>
+  </section>
+
+  <nav class="menu-nav" aria-label="Menu sections">
+    <a href="#crudo">Crudo</a>
+    <a href="#antipasti">Antipasti</a>
+    <a href="#primi">Primi</a>
+    <a href="#secondi">Secondi</a>
+    <a href="#pizze">Pizze</a>
+    <a href="#insalate">Insalate</a>
+    <a href="#bimbi"><span class="en">Kids</span><span class="it">Bimbi</span></a>
+    <a href="#dolci">Dolci</a>
+    <a href="#cantina">La Cantina</a>
+    <a href="#eventi"><span class="en">Events</span><span class="it">Eventi</span></a>
+  </nav>
+
+  <section class="menu-section" id="crudo">
+    <div class="sec-head"><h2>Crudo Mare</h2><div class="rule"></div></div>
+    <p class="sec-note en">By the piece, subject to availability</p>
+    <p class="sec-note it">Al pezzo, secondo disponibilità</p>
+    <div class="menu-card">
+      <div class="menu-item"><div class="mi-head"><span class="mi-name">Ostrica</span><span class="dots"></span><span class="mi-price">€ 4,5</span></div></div>
+      <div class="menu-item"><div class="mi-head"><span class="mi-name">Tagliatelle di mare</span><span class="dots"></span><span class="mi-price">€ 10</span></div></div>
+      <div class="menu-item"><div class="mi-head"><span class="mi-name">Scampo</span><span class="dots"></span><span class="mi-price">€ 5</span></div></div>
+      <div class="menu-item"><div class="mi-head"><span class="mi-name">Gambero rosso</span><span class="dots"></span><span class="mi-price">€ 4</span></div></div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="antipasti">
+    <div class="sec-head"><h2>Antipasti</h2><div class="rule"></div></div>
+    <div class="menu-card">
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Fiore d’Estate<span class="al">(1, 3)*</span></span><span class="dots"></span><span class="mi-price">€ 12</span></div>
+        <p class="mi-desc">Fiori di zucca pastellati serviti su crema a fantasia dello chef</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Caprese di bufala — <em>Dolcenera</em><span class="al">(7)</span></span><span class="dots"></span><span class="mi-price">€ 14</span></div>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">I Tesori di <em>Dolcenera</em><span class="al">(7)</span></span><span class="dots"></span><span class="mi-price">€ 24</span></div>
+        <p class="mi-desc">Degustazione di specialità <em>Dolcenera</em> con formaggi e preparazioni di bufala</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Battuto Imperiale di scampi<span class="al">(2, 12)</span></span><span class="dots"></span><span class="mi-price">€ 22</span></div>
+        <p class="mi-desc">Battuto di scampi con polpa di riccio, zeste di lime e velo all’aceto di prugna</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Battuto Imperiale di gamberi rossi<span class="al">(2)</span></span><span class="dots"></span><span class="mi-price">€ 19</span></div>
+        <p class="mi-desc">Battuto di gamberi rossi, bitter Fusetti, crumble di lamponi, basilico</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Tartare di tonno<span class="al">(1, 4, 7)</span></span><span class="dots"></span><span class="mi-price">€ 18</span></div>
+        <p class="mi-desc">Tartare di tonno, stracciatella di bufala — <em>Dolcenera</em>, tarallo pugliese</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Fettuccina di mare<span class="al">(13)</span></span><span class="dots"></span><span class="mi-price">€ 16</span></div>
+        <p class="mi-desc">Fettuccina di calamaro su crema di zucchine e germogli di pisello</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Pane, burro e Cantabrico<span class="al">(1, 4, 7)</span></span><span class="dots"></span><span class="mi-price">€ 18</span></div>
+        <p class="mi-desc">Filetti di alici del Cantabrico su crostino croccante e burro salato</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Sauté Mediterraneo<span class="al">(13)</span></span><span class="dots"></span><span class="mi-price">€ 14</span></div>
+        <p class="mi-desc">Sauté di cozze con pomodorini multicolore</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Insalata di mare<span class="al">(2, 4, 13)</span></span><span class="dots"></span><span class="mi-price">€ 16</span></div>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Gran frittura C-Beach<span class="al">(1, 2, 4, 13)</span></span><span class="dots"></span><span class="mi-price">€ 16</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="primi">
+    <div class="sec-head"><h2>Primi Piatti</h2><div class="rule"></div></div>
+    <div class="menu-card">
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Spaghettone <em>Senatore Cappelli</em><span class="al">(1, 13)</span></span><span class="dots"></span><span class="mi-price">€ 18</span></div>
+        <p class="mi-desc">Cozze, vongole, pomodorini</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Spaghettone <em>Senatore Cappelli</em><span class="al">(1, 13)*</span></span><span class="dots"></span><span class="mi-price">€ 25</span></div>
+        <p class="mi-desc">Polpa di ricci di mare, umami di aglio nero</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Tortello di cernia e limone candito<span class="al">(1, 2, 3, 4, 13)</span></span><span class="dots"></span><span class="mi-price">€ 22</span></div>
+        <p class="mi-desc">Gambero rosso, vongole veraci e pomodorini freschi</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Assassina di astice<span class="al">(1, 2)</span></span><span class="dots"></span><span class="mi-price">€ 35</span></div>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Tagliolino agli scampi<span class="al">(1, 2, 3)</span></span><span class="dots"></span><span class="mi-price">€ 22</span></div>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Capunti Arlecchino<span class="al">(1, 7)</span></span><span class="dots"></span><span class="mi-price">€ 18</span></div>
+        <p class="mi-desc">Su velluto di zucchine, datterini gialli, burratina — <em>Dolcenera</em>, capocollo croccante</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="secondi">
+    <div class="sec-head"><h2>Secondi Piatti</h2><div class="rule"></div></div>
+    <div class="menu-card">
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Spada alla Norma<span class="al">(4, 7)</span></span><span class="dots"></span><span class="mi-price">€ 20</span></div>
+        <p class="mi-desc">Trancio di pesce spada in ispirazione marinara di un grande classico siciliano</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Zampina di tonno<span class="al">(3, 4, 10)</span></span><span class="dots"></span><span class="mi-price">€ 22</span></div>
+        <p class="mi-desc">Accompagnata da riccioli di patata Désirée, mayo di cipolla caramellata</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Polpo alla griglia<span class="al">(13)</span></span><span class="dots"></span><span class="mi-price">€ 18</span></div>
+        <p class="mi-desc">Servito su letto di rucola con freschezza di dressing al limone</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Seppia alla griglia<span class="al">(13)</span></span><span class="dots"></span><span class="mi-price">€ 18</span></div>
+        <p class="mi-desc">Eleganza marina dalle delicate sfumature vegetali di crema di zucchine, rucola croccante, petali di cipolla rossa dolceagro</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Pluma iberica</span><span class="dots"></span><span class="mi-price">€ 30</span></div>
+        <p class="mi-desc">Succulenza e carattere con asparagi saltati e fondo di cottura</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="pizze">
+    <div class="sec-head"><h2>Pizze</h2><div class="rule"></div></div>
+    <p class="sec-note en">Available at dinner only</p>
+    <p class="sec-note it">Disponibili solo a cena</p>
+    <div class="menu-card">
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Bufalina<span class="al">(1, 7)</span></span><span class="dots"></span><span class="mi-price">€ 14</span></div>
+        <p class="mi-desc">Pomodoro di San Marzano, Bella Lodi Riserva Bianca di bufala — <em>Dolcenera</em>, bufala — <em>Dolcenera</em>, basilico, olio EVO</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Diavola Calabra<span class="al">(1)</span></span><span class="dots"></span><span class="mi-price">€ 19</span></div>
+        <p class="mi-desc">Salsa di datterino giallo, salsiccia piccante, ’nduja di Spilinga, fili di peperoncino, pomodorini Pizzutello semi-dry, basilico, olio EVO</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Friariello di Mare<span class="al">(1, 4, 7)</span></span><span class="dots"></span><span class="mi-price">€ 22</span></div>
+        <p class="mi-desc">Crema di friarielli, salsiccia di tonno, croccante di friariello, mozzarella affumicata di bufala — <em>Dolcenera</em>, tarallo pugliese sbriciolato, olio EVO</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Cantabrico<span class="al">(1, 4)</span></span><span class="dots"></span><span class="mi-price">€ 22</span></div>
+        <p class="mi-desc">Salsa di datterino giallo, pomodorini Pizzutello semi-dry, cappero croccante, alici del Cantabrico, oliva Caiazzana “Presidio Slow Food”, aglio nero, origano, olio EVO</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Nerano Nobile<span class="al">(1, 4, 7)</span></span><span class="dots"></span><span class="mi-price">€ 25</span></div>
+        <p class="mi-desc">Vellutata di zucchine, fiori di zucca, salmone affumicato, aglio nero, provolone del Monaco DOP, basilico, olio EVO</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Ursula<span class="al">(1, 7, 13)</span></span><span class="dots"></span><span class="mi-price">€ 23</span></div>
+        <p class="mi-desc">Vellutata di fave, carpaccio di polpo, stracciatella di bufala — <em>Dolcenera</em>, croccante di patata a buccia rossa, perle di limone, olio EVO</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Carne Salada<span class="al">(1, 7)</span></span><span class="dots"></span><span class="mi-price">€ 25</span></div>
+        <p class="mi-desc"><em>Impasto di farina di mais e semi di girasole</em> — burro di bufala — <em>Dolcenera</em>, carne salada, rucola croccante, pomodorini Pizzutello semi-dry, pesto di limone, stracciatella di bufala — <em>Dolcenera</em>, olio EVO</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Blu<span class="al">(1, 7)</span></span><span class="dots"></span><span class="mi-price">€ 20</span></div>
+        <p class="mi-desc">Blu di bufala — <em>Dolcenera</em>, Bella Lodi Riserva Bianca di bufala — <em>Dolcenera</em>, fior di latte, stracciatella di bufala — <em>Dolcenera</em>, pepe rosa tostato, fichi caramellati, polvere di limone, basilico, olio EVO</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Orto Mediterraneo<span class="al">(1, 7)</span></span><span class="dots"></span><span class="mi-price">€ 18</span></div>
+        <p class="mi-desc">Salsa di datterino giallo, Bella Lodi Riserva Bianca di bufala — <em>Dolcenera</em>, fior di latte, melanzane a funghetto, zucchine alla julienne, peperone crusco, basilico, olio EVO</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Tre Pomodori<span class="al">(1, 7)</span></span><span class="dots"></span><span class="mi-price">€ 18</span></div>
+        <p class="mi-desc"><em>Impasto di farina di mais e semi di girasole</em> — pacchetelle di datterini gialli e rossi, pomodorini Pizzutello semi-dry, crema di stracciatella di bufala — <em>Dolcenera</em>, pesto di basilico home made, basilico, olio EVO</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Gibson<span class="al">(1, 2, 7, 8)</span></span><span class="dots"></span><span class="mi-price">€ 28</span></div>
+        <p class="mi-desc"><em>La preferita di Louie Gibson</em> — bufala — <em>Dolcenera</em>, Bella Lodi Riserva Bianca di bufala — <em>Dolcenera</em>, zucchine alla julienne, battuto di gambero, croccante di lamponi, anacardi tostati, fiori eduli</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Williams<span class="al">(1, 7, 8)</span></span><span class="dots"></span><span class="mi-price">€ 19</span></div>
+        <p class="mi-desc">Pere, Blu di bufala — <em>Dolcenera</em>, fior di latte, noci tostate, perle di balsamico, basilico, olio EVO</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">La Ventresca<span class="al">(1, 4, 7)</span></span><span class="dots"></span><span class="mi-price">€ 22</span></div>
+        <p class="mi-desc">Bella Lodi Riserva Bianca di bufala — <em>Dolcenera</em>, fiori di zucca, guanciale di tonno, crema di stracciatella di bufala — <em>Dolcenera</em>, olio EVO, riccioli di patata Désirée, basilico, perle di limone</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="insalate">
+    <div class="sec-head"><h2>Insalate</h2><div class="rule"></div></div>
+    <div class="menu-card">
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Caesar salad<span class="al">(1, 7)</span></span><span class="dots"></span><span class="mi-price">€ 12</span></div>
+        <p class="mi-desc">Iceberg, pollo, grana a scaglie, crostini, salsa yogurt</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Bufaletta<span class="al">(7, 9)</span></span><span class="dots"></span><span class="mi-price">€ 14</span></div>
+        <p class="mi-desc">Iceberg, rucola, sedano, carota, pomodorini freschi, olive nere, mozzarelline di bufala — <em>Dolcenera</em></p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Tropical Chic<span class="al">(2, 9)</span></span><span class="dots"></span><span class="mi-price">€ 14</span></div>
+        <p class="mi-desc">Iceberg, rucola, sedano, carota, ananas, gamberetti</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Greca<span class="al">(4, 7, 9)</span></span><span class="dots"></span><span class="mi-price">€ 14</span></div>
+        <p class="mi-desc">Iceberg, valerianella, sedano, carote, pomodorini cip agro, porchetta di salmone, feta greca, olive nere</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Mista C-Beach<span class="al">(9)</span></span><span class="dots"></span><span class="mi-price">€ 8</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="bimbi">
+    <div class="sec-head">
+      <h2 class="en">For Our Little Guests</h2>
+      <h2 class="it">Per i Nostri Piccoli Ospiti</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="menu-card">
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Orecchiette al pomodoro<span class="al">(1)</span></span><span class="dots"></span><span class="mi-price">€ 10</span></div>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Cotoletta di pollo<span class="al">(1, 3)</span></span><span class="dots"></span><span class="mi-price">€ 12</span></div>
+        <p class="mi-desc">Con patatine fritte</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="dolci">
+    <div class="sec-head"><h2>Dolci</h2><div class="rule"></div></div>
+    <div class="menu-card">
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Praline (5 pz)</span><span class="dots"></span><span class="mi-price">€ 8</span></div>
+        <p class="mi-desc">Bocconcini di gelato artigianale, vari gusti</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Sorbettini (5 pz)</span><span class="dots"></span><span class="mi-price">€ 7</span></div>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Tiramisù</span><span class="dots"></span><span class="mi-price">€ 7</span></div>
+      </div>
+    </div>
+    <details class="allergen-box">
+      <summary><span class="en">Allergens &amp; intolerances</span><span class="it">Allergeni e intolleranze</span></summary>
+      <p class="en" style="padding-bottom:8px">The numbers next to each dish refer to the EU allergen list. For any allergy or intolerance, please speak with our staff.</p>
+      <p class="it" style="padding-bottom:8px">I numeri accanto ai piatti si riferiscono all’elenco allergeni UE. Per qualsiasi esigenza di intolleranze o allergie, rivolgersi alla sala.</p>
+      <div class="grid">
+        <span>1 · <span class="en">Gluten</span><span class="it">Glutine</span></span>
+        <span>2 · <span class="en">Crustaceans</span><span class="it">Crostacei</span></span>
+        <span>3 · <span class="en">Eggs</span><span class="it">Uova</span></span>
+        <span>4 · <span class="en">Fish</span><span class="it">Pesce</span></span>
+        <span>5 · <span class="en">Peanuts</span><span class="it">Arachidi</span></span>
+        <span>6 · <span class="en">Soy</span><span class="it">Soia</span></span>
+        <span>7 · <span class="en">Milk</span><span class="it">Latte</span></span>
+        <span>8 · <span class="en">Tree nuts</span><span class="it">Frutta a guscio</span></span>
+        <span>9 · <span class="en">Celery</span><span class="it">Sedano</span></span>
+        <span>10 · <span class="en">Mustard</span><span class="it">Senape</span></span>
+        <span>11 · <span class="en">Sesame</span><span class="it">Sesamo</span></span>
+        <span>12 · <span class="en">Sulphites</span><span class="it">Solfiti</span></span>
+        <span>13 · <span class="en">Molluscs</span><span class="it">Molluschi</span></span>
+        <span>14 · <span class="en">Lupin</span><span class="it">Lupini</span></span>
+      </div>
+      <p class="en" style="padding-bottom:12px">* Frozen or blast-chilled when fresh product is unavailable.</p>
+      <p class="it" style="padding-bottom:12px">* Congelato o abbattuto in mancanza di prodotto fresco.</p>
+    </details>
+  </section>
+
+  <section class="menu-section" id="cantina">
+    <div class="sec-head"><h2>La Cantina</h2><div class="rule"></div></div>
+    <p class="sec-note en">Our wine list — bottles</p>
+    <p class="sec-note it">La nostra carta dei vini — bottiglie</p>
+
+    <div class="sec-head" style="margin-top:26px"><h2 style="font-size:1.35rem">Le Bollicine</h2></div>
+    <div class="menu-card">
+      <div class="wine-region">Puglia</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Amore Protetto</span><span class="dots"></span><span class="mi-price">€ 38</span></div>
+        <p class="mi-desc">Metodo Classico Brut · <em>Fiano, Minutolo</em> · Colli della Murgia</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">D’Araprì Rosé</span><span class="dots"></span><span class="mi-price">€ 45</span></div>
+        <p class="mi-desc">Metodo Classico Rosé · <em>Montepulciano, Pinot Nero</em> · D’Araprì</p>
+      </div>
+      <div class="wine-region">Trentino Alto Adige</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Maximum Blanc de Blancs</span><span class="dots"></span><span class="mi-price">€ 38</span></div>
+        <p class="mi-desc">Trentodoc · <em>Chardonnay</em> · Ferrari</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Perlé Rosé</span><span class="dots"></span><span class="mi-price">€ 70</span></div>
+        <p class="mi-desc">Trentodoc · <em>Pinot Nero, Chardonnay</em> · Ferrari</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Maximum Demi-Sec</span><span class="dots"></span><span class="mi-price">€ 40</span></div>
+        <p class="mi-desc">Trentodoc · <em>Chardonnay</em> · Ferrari</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Quota Mille</span><span class="dots"></span><span class="mi-price">€ 60</span></div>
+        <p class="mi-desc">Metodo Classico Extra Brut 2019–2020 · <em>Pinot Nero, Chardonnay, Pinot Bianco</em> · Huber</p>
+      </div>
+      <div class="wine-region">Veneto</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Col di Manza</span><span class="dots"></span><span class="mi-price">€ 30</span></div>
+        <p class="mi-desc">Conegliano Valdobbiadene Prosecco Superiore DOCG · <em>Glera</em> · Perlage</p>
+      </div>
+      <div class="wine-region">Friuli Venezia Giulia</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Ribolla Gialla</span><span class="dots"></span><span class="mi-price">€ 30</span></div>
+        <p class="mi-desc">Spumante Brut · <em>Ribolla Gialla</em> · Ca’ Bolani</p>
+      </div>
+      <div class="wine-region">Champagne, Francia</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Brut Réserve</span><span class="dots"></span><span class="mi-price">€ 100</span></div>
+        <p class="mi-desc">Champagne Extra Brut · <em>Meunier, Chardonnay, Pinot Nero</em> · Billecart-Salmon</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Brut Rosé</span><span class="dots"></span><span class="mi-price">€ 120</span></div>
+        <p class="mi-desc">Champagne Rosé Extra Brut · <em>Chardonnay, Meunier, Pinot Nero</em> · Billecart-Salmon</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Blanc de Blancs</span><span class="dots"></span><span class="mi-price">€ 130</span></div>
+        <p class="mi-desc">Champagne Extra Brut · <em>Chardonnay</em> · Billecart-Salmon</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Cuvée Rosé</span><span class="dots"></span><span class="mi-price">€ 120</span></div>
+        <p class="mi-desc">Champagne Rosé Brut · <em>Pinot Nero</em> · Laurent-Perrier</p>
+      </div>
+    </div>
+
+    <div class="sec-head" style="margin-top:26px"><h2 style="font-size:1.35rem">I Bianchi</h2></div>
+    <div class="menu-card">
+      <div class="wine-region">Puglia</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Metiusco</span><span class="dots"></span><span class="mi-price">€ 28</span></div>
+        <p class="mi-desc"><em>Verdeca, Malvasia Bianca</em> · 2025 · Vinicola Palamà</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Erbaceo</span><span class="dots"></span><span class="mi-price">€ 25</span></div>
+        <p class="mi-desc"><em>Fiano, Greco</em> · 2025 · Colli della Murgia</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Margotta</span><span class="dots"></span><span class="mi-price">€ 25</span></div>
+        <p class="mi-desc"><em>Negroamaro vinificato in bianco</em> · 2025 · Mondatore</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Cavabianca</span><span class="dots"></span><span class="mi-price">€ 38</span></div>
+        <p class="mi-desc"><em>Bianco d’Alessano, Fiano, Chardonnay</em> · 2023 · Terre Carsiche 1939</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Chardonnay</span><span class="dots"></span><span class="mi-price">€ 22</span></div>
+        <p class="mi-desc"><em>Chardonnay</em> · 2025 · Doline</p>
+      </div>
+      <div class="wine-region">Marche</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Offida DOCG Passerina</span><span class="dots"></span><span class="mi-price">€ 28</span></div>
+        <p class="mi-desc"><em>Passerina 100%</em> · 2024 · Velenosi — Villa Angela</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Offida DOCG Pecorino</span><span class="dots"></span><span class="mi-price">€ 28</span></div>
+        <p class="mi-desc"><em>Pecorino 100%</em> · 2024 · Velenosi — Villa Angela</p>
+      </div>
+      <div class="wine-region">Veneto</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Lugana DOC</span><span class="dots"></span><span class="mi-price">€ 30</span></div>
+        <p class="mi-desc"><em>Turbiana</em> · 2024 · Montresor</p>
+      </div>
+      <div class="wine-region">Friuli Venezia Giulia</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Pinot Grigio</span><span class="dots"></span><span class="mi-price">€ 25</span></div>
+        <p class="mi-desc"><em>Pinot Grigio</em> · 2025 · Ca’ Bolani</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Ribolla Gialla</span><span class="dots"></span><span class="mi-price">€ 25</span></div>
+        <p class="mi-desc"><em>Ribolla Gialla</em> · 2025 · Ca’ Bolani</p>
+      </div>
+      <div class="wine-region">Trentino Alto Adige</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Gewürztraminer</span><span class="dots"></span><span class="mi-price">€ 30</span></div>
+        <p class="mi-desc"><em>Gewürztraminer</em> · 2025 · Wolftal</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Müller Thurgau</span><span class="dots"></span><span class="mi-price">€ 30</span></div>
+        <p class="mi-desc"><em>Müller Thurgau</em> · 2024 · Wolftal</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Riesling</span><span class="dots"></span><span class="mi-price">€ 40</span></div>
+        <p class="mi-desc"><em>Riesling</em> · 2024 · Pacher Hof</p>
+      </div>
+      <div class="wine-region">Francia</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Le Blanc</span><span class="dots"></span><span class="mi-price">€ 30</span></div>
+        <p class="mi-desc"><em>Viognier, Vermentino, Pinot Gris, Macabeu, Sauvignon Blanc, Colombard</em> · 2025 · Paul Mas</p>
+      </div>
+      <div class="wine-region">Nuova Zelanda</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Sauvignon Blanc (Landmark Series)</span><span class="dots"></span><span class="mi-price">€ 28</span></div>
+        <p class="mi-desc"><em>Sauvignon Blanc</em> · 2023 · Misty Cove Wines</p>
+      </div>
+    </div>
+
+    <div class="sec-head" style="margin-top:26px"><h2 style="font-size:1.35rem">I Rosati</h2></div>
+    <div class="menu-card">
+      <div class="wine-region">Puglia</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Susumaniello Rosato</span><span class="dots"></span><span class="mi-price">€ 25</span></div>
+        <p class="mi-desc">Agricoltura Sinergica · <em>Susumaniello</em> · 2025 · L’Archetipo</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Susumà</span><span class="dots"></span><span class="mi-price">€ 22</span></div>
+        <p class="mi-desc"><em>Susumaniello</em> · 2025 · Le Vigne di Sammarco</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Metiusco</span><span class="dots"></span><span class="mi-price">€ 28</span></div>
+        <p class="mi-desc"><em>Negroamaro</em> · 2025 · Vinicola Palamà</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Margotta</span><span class="dots"></span><span class="mi-price">€ 25</span></div>
+        <p class="mi-desc"><em>Negroamaro</em> · 2025 · Mondatore</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Sellaia</span><span class="dots"></span><span class="mi-price">€ 25</span></div>
+        <p class="mi-desc"><em>Primitivo</em> · 2025 · Colli della Murgia</p>
+      </div>
+      <div class="wine-region">Abruzzo</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">NOBU1830</span><span class="dots"></span><span class="mi-price">€ 25</span></div>
+        <p class="mi-desc"><em>Merlot</em> · 2025 · Giannicola Di Carlo</p>
+      </div>
+      <div class="wine-region">Francia</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Le Rosé</span><span class="dots"></span><span class="mi-price">€ 30</span></div>
+        <p class="mi-desc"><em>Grenache Gris, Grenache Noir, Pinot Gris, Caladoc, Cinsault</em> · 2025 · Paul Mas</p>
+      </div>
+    </div>
+
+    <div class="sec-head" style="margin-top:26px"><h2 style="font-size:1.35rem">I Rossi</h2></div>
+    <div class="menu-card">
+      <div class="wine-region">Puglia</div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Margotta</span><span class="dots"></span><span class="mi-price">€ 25</span></div>
+        <p class="mi-desc"><em>Negroamaro</em> · 2023 · Mondatore</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Il Cavaliere</span><span class="dots"></span><span class="mi-price">€ 25</span></div>
+        <p class="mi-desc"><em>Malvasia Nera</em> · 2023 · Cantine San Pancrazio</p>
+      </div>
+      <div class="menu-item">
+        <div class="mi-head"><span class="mi-name">Sessantanni</span><span class="dots"></span><span class="mi-price">€ 40</span></div>
+        <p class="mi-desc"><em>Primitivo di Manduria</em> · 2021 · San Marzano</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="eventi">
+    <div class="sec-head">
+      <h2 class="en">Events &amp; Celebrations</h2>
+      <h2 class="it">Eventi e Celebrazioni</h2>
+      <div class="rule"></div>
+    </div>
+    <article class="step" style="margin-top:14px">
+      <p class="en">
+        For <strong>private events, corporate events, pre-wedding and post-wedding parties</strong>
+        or any special gathering, contact <strong>Francesco</strong> on WhatsApp or write to us by email.
+      </p>
+      <p class="it">
+        Per <strong>eventi privati, eventi aziendali, feste pre e post matrimonio</strong>
+        o qualsiasi occasione speciale, contatta <strong>Francesco</strong> su WhatsApp o scrivici via email.
+      </p>
+      <div class="btn-row">
+        <a class="btn btn-wa en" href="https://wa.me/393759226719?text=Hi%20Francesco!%20We%E2%80%99d%20like%20to%20organise%20an%20event%20at%20C%20Beach." target="_blank" rel="noopener">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.48 15.06L2 22l5.08-1.51A9.9 9.9 0 1 0 12.04 2Zm0 18.04a8.1 8.1 0 0 1-4.13-1.13l-.3-.18-3.01.9.9-2.94-.2-.31a8.14 8.14 0 1 1 6.74 3.66Zm4.46-6.1c-.24-.12-1.44-.71-1.66-.79-.22-.08-.39-.12-.55.12-.16.24-.63.79-.77.95-.14.16-.28.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.64-1.21-1.44-1.35-1.68-.14-.24-.02-.37.1-.5.11-.11.25-.28.37-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.81-.2-.48-.4-.41-.55-.42h-.47c-.16 0-.42.06-.65.3-.22.24-.85.83-.85 2.03s.87 2.36 1 2.52c.12.16 1.72 2.62 4.16 3.68.58.25 1.03.4 1.39.51.58.19 1.11.16 1.53.1.47-.07 1.44-.59 1.64-1.16.2-.57.2-1.05.14-1.16-.06-.1-.22-.16-.46-.28Z"/></svg>
+          WhatsApp Francesco
+        </a>
+        <a class="btn btn-wa it" href="https://wa.me/393759226719?text=Ciao%20Francesco!%20Vorremmo%20organizzare%20un%20evento%20al%20C%20Beach." target="_blank" rel="noopener">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.48 15.06L2 22l5.08-1.51A9.9 9.9 0 1 0 12.04 2Zm0 18.04a8.1 8.1 0 0 1-4.13-1.13l-.3-.18-3.01.9.9-2.94-.2-.31a8.14 8.14 0 1 1 6.74 3.66Zm4.46-6.1c-.24-.12-1.44-.71-1.66-.79-.22-.08-.39-.12-.55.12-.16.24-.63.79-.77.95-.14.16-.28.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.64-1.21-1.44-1.35-1.68-.14-.24-.02-.37.1-.5.11-.11.25-.28.37-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.81-.2-.48-.4-.41-.55-.42h-.47c-.16 0-.42.06-.65.3-.22.24-.85.83-.85 2.03s.87 2.36 1 2.52c.12.16 1.72 2.62 4.16 3.68.58.25 1.03.4 1.39.51.58.19 1.11.16 1.53.1.47-.07 1.44-.59 1.64-1.16.2-.57.2-1.05.14-1.16-.06-.1-.22-.16-.46-.28Z"/></svg>
+          WhatsApp Francesco
+        </a>
+        <a class="btn btn-outline" href="mailto:cbeachitaly@gmail.com?subject=Event%20at%20C%20Beach">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          cbeachitaly@gmail.com
+        </a>
+      </div>
+    </article>
+  </section>
+
+  <section class="steps" style="margin-top:26px">
+    <a class="link-card" href="../sunbeds/">
+      <div>
+        <h2 class="en">Sunbeds &amp; prices</h2>
+        <h2 class="it">Lettini e prezzi</h2>
+        <p class="en">Book your spot on the beach via WhatsApp</p>
+        <p class="it">Prenota il tuo posto in spiaggia su WhatsApp</p>
+      </div>
+      <span class="arrow">&rarr;</span>
+    </a>
+    <a class="link-card" href="../parking/">
+      <div>
+        <h2 class="en">How to reach us</h2>
+        <h2 class="it">Come raggiungerci</h2>
+        <p class="en">Parking, our driver Pier, and the 3-minute shuttle</p>
+        <p class="it">Parcheggio, il nostro autista Pier e la navetta</p>
+      </div>
+      <span class="arrow">&rarr;</span>
+    </a>
+  </section>
+</main>
+
+<footer>
+  <img class="footer-logo" src="../img/logo-gold.png" alt="C Beach — Rosa Marina, Ostuni" />
+  <p class="addr">Viale Schachter, Rosa Marina — 72017 Ostuni (BR), Puglia</p>
+  <div class="links">
+    <a href="https://www.instagram.com/c_beach_ostuni/" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://wa.me/393759226719" target="_blank" rel="noopener">
+      <span class="en">Info &amp; reservations — WhatsApp Francesco</span>
+      <span class="it">Info e prenotazioni — WhatsApp Francesco</span>
+    </a>
+    <a href="mailto:cbeachitaly@gmail.com">cbeachitaly@gmail.com</a>
+  </div>
+  <p class="tiny en">Prices may change — the menu at the table always applies ☀</p>
+  <p class="tiny it">I prezzi possono variare — fa fede il menù al tavolo ☀</p>
+</footer>
+
+<script src="../js/lang.js"></script>
+
+</body>
+</html>
